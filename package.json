@@ -1,0 +1,21 @@
+{
+  "name": "RegistrationBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OgabekMengn1yozov/RegistrationBot.git",
+  "author": "OgabekMengn1yozov <mengniyozovogabek05@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "form-data": "^4.0.0",
+    "node-fetch": "2.6.7",
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.28.0"
+  }
+}
